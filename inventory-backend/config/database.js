@@ -4,7 +4,7 @@ import mysql from "mysql2";
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Passw0rd11',
+  password: '',
   database: 'crud-app'
 });
  
